@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs');
 
 const connectDB = require('./config/db');
 
-const User = require('./model/User');
-const Product = require('./model/Product');
+const User = require('./model/user');
+const Product = require('./model/product');
 const Order = require('./model/Order');
 
 dotenv.config();
